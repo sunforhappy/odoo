@@ -180,7 +180,7 @@ msgstr "<span class=\"label label-default text-center odoo_purple\">'可用'</sp
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Delivery</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">点击<span class=\"fa fa-truck\"/> 发货</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">点击<span class=\"fa fa-truck\"/> 发货</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -194,42 +194,42 @@ msgstr "<span class=\"label label-default text-center odoo_purple\">点击 <span
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Confirm "
 "Order</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">确认订单</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">确认订单</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Confirm "
 "Sale</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">确认销售/span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">确认销售</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Find Incoming "
 "Shipments</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">查找入库货物</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">查找入库货物</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Process the "
 "products</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">移动产品</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">移动产品</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Validate the "
 "Delivery</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">确认发货</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">确认发货</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center odoo_purple\">Validate the "
 "Receipt Order</span>"
-msgstr "<span class=\"标签 默认标签 文本中心 odoo_purple\">确认收货单</span>"
+msgstr "<span class=\"label label-default text-center odoo_purple\">确认收货单</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -269,7 +269,7 @@ msgid ""
 "                                        <strong>Import</strong><br/>\n"
 "                                        <span class=\"small\">&gt; 50 vendors</span>\n"
 "                                    </span>"
-msgstr "<span class=\"标题版\">\n                                        <span class=\"fa\" data-icon=\"&#57408;\"/>\n                                        <strong>导入</strong><br/>\n                                        <span class=\"小\">&gt; 50 供应商</span>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"&#57408;\"/>\n                                        <strong>导入</strong><br/>\n                                        <span class=\"small\">&gt; 50 供应商</span>\n                                    </span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -279,7 +279,7 @@ msgid ""
 "                                        <strong> Create manually</strong><br/>\n"
 "                                        <span class=\"small\">&lt; 50 vendors</span>\n"
 "                                    </span>"
-msgstr "<span class=\"标题版\">\n                                        <span class=\"fa\" data-icon=\"&#57440;\"/>\n                                        <strong> 手工创建</strong><br/>\n                                        <span class=\"小\">&lt; 50 供应商</span>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <span class=\"fa\" data-icon=\"&#57440;\"/>\n                                        <strong> 手工创建</strong><br/>\n                                        <span class=\"small\">&lt; 50 供应商</span>\n                                    </span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -297,7 +297,7 @@ msgid ""
 "<span class=\"panel-title\">\n"
 "                                        <strong>From the Inventory application</strong>\n"
 "                                    </span>"
-msgstr "<span class=\"标题版\">\n                                        <strong>从库存应用</strong>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <strong>从库存应用</strong>\n                                    </span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -313,7 +313,7 @@ msgid ""
 "<span class=\"panel-title\">\n"
 "                                        <strong>From the Sales application</strong>\n"
 "                                    </span>"
-msgstr "<span class=\"标题版\">\n                                        <strong>从销售应用</strong>\n                                    </span>"
+msgstr "<span class=\"panel-title\">\n                                        <strong>从销售应用</strong>\n                                    </span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.report_delivery_document
@@ -6041,7 +6041,7 @@ msgid ""
 "To check the trajectory of a lot, find it back in <strong><i>Inventory Control &gt; Serial Numbers / lots</i></strong>.\n"
 "                       Choose a Lo t in the list and click on <i>Traceability</i>i&gt;. You may also\n"
 "                       filter the Quantitative Valuation of a product with a certain lot."
-msgstr "要查看一个批次的踪迹，可以回到<strong><i>库存控制 &gt; 序列号 / 批次</i></strong>。\n在列表中选择一个批次并且点击<i>踪迹</i>i&gt，过滤带有特定特定批次号的产品的数量评估\""
+msgstr "要查看一个批次的踪迹，可以回到<strong><i>库存控制 &gt; 序列号 / 批次</i></strong>。\n在列表中选择一个批次并且点击<i>踪迹</i>i&gt;，过滤带有特定特定批次号的产品的数量评估\""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
