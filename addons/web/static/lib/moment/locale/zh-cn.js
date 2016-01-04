@@ -29,22 +29,6 @@
             lll : "YYYY年MMMD日LT",
             llll : "YYYY年MMMD日ddddLT"
         },
-        meridiem : function (hour, minute, isLower) {
-            var hm = hour * 100 + minute;
-            if (hm < 600) {
-                return "凌晨";
-            } else if (hm < 900) {
-                return "早上";
-            } else if (hm < 1130) {
-                return "上午";
-            } else if (hm < 1230) {
-                return "中午";
-            } else if (hm < 1800) {
-                return "下午";
-            } else {
-                return "晚上";
-            }
-        },
         calendar : {
             sameDay : function () {
                 return this.minutes() === 0 ? "[今天]Ah[点整]" : "[今天]LT";
