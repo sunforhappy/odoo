@@ -13437,7 +13437,7 @@ msgstr "采购申请"
 #: model:ir.module.category,name:base.module_category_purchase_management
 #: model:ir.ui.menu,name:base.menu_purchase_root
 msgid "Purchases"
-msgstr "采购订单"
+msgstr "采购"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_wkf_activity_action
